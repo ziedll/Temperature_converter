@@ -10,22 +10,23 @@
     <h1>Temperature Converter</h1>
     <h2>Enter the temperature, select units and submit</h2>
     <div class="box">
-        <input type="text" id="temp">
+        <input type="number" id="temp" placeholder="0.00" step="any">
         <select name="" id="Unit-debut" class="champ">
             <option value="">From Unit</option>
-            <option value="" id="F">Fahrenheit</option>
-            <option value="" id="C">Celseus</option>
-            <option value="" id="K">Kelvin</option>
+            <option value="F" >Fahrenheit</option>
+            <option value="C" >Celseus</option>
+            <option value="K" >Kelvin</option>
             
         </select>
         <select name="" id="Unit-final" class="champ">
             <option value="">To Unit</option>
-           <option value="" id="F">Fahrenheit</option>
-            <option value="" id="C">Celseus</option>
-            <option value="" id="K">Kelvin</option>
+            <option value="F" >Fahrenheit</option>
+            <option value="C" >Celseus</option>
+            <option value="K" >Kelvin</option>
         </select>
-        <button type="submit" id ="button" class="button" >Convert</button>
+        <input type="text" name="result" id="result">
+        <button  id ="button" class="button" >Convert</button>
     </div>
-    <script src="script.js"></script>
+    <script  src="script.js"></script>
 </body>
 </html>
